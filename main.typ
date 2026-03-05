@@ -87,7 +87,7 @@ efectos de vigilancia sanitaria (INVIMA).
 
 == Otras normas de referencia
 
-- *NTC 1437* @ntc1437: Requisitos para guayaba fresca (materia prima).
+- *NTC 1263* @ntc1263: Requisitos para guayaba (materia prima).
 - *Resolución 3929/2013* @res3929: Reglamento técnico sobre jugos, pulpas y
   néctares de frutas.
 - *Resolución 2674/2013* @res2674: Requisitos sanitarios para establecimientos
