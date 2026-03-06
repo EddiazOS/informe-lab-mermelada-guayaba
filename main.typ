@@ -141,60 +141,62 @@ A continuación se presentan los resultados de cada ensayo microbiológico.
 
 
 // Espacio para figuras de placas
-#figure(
-  grid(
-    columns: 2,
-    gutter: 1em,
-    image("docs/imagenes/mermelada_guayaba_EMB_1.jpg", width: 100%),
-    image("docs/imagenes/mermelada_guayaba_EMB_2.jpg", width: 100%),
-  ),
-  caption: [Platos de cultivo EMB (Coliformes/_E.coli_)],
-)<figura_1>
+// #figure(
+//   grid(
+//     columns: 2,
+//     gutter: 1em,
+//     image("docs/imagenes/mermelada_guayaba_EMB_1.jpg", width: 100%),
+//     image("docs/imagenes/mermelada_guayaba_EMB_2.jpg", width: 100%),
+//   ),
+//   caption: [Platos de cultivo EMB (Coliformes/_E.coli_)],
+// )<figura_1>
 
 
-#figure(
-  grid(
-    columns: 2,
-    gutter: 1em,
-    image("docs/imagenes/mermelada_guayaba_manitol_1.jpg", width: 100%),
-    image("docs/imagenes/mermelada_guayaba_manitol_2.jpg", width: 100%),
-  ),
-  caption: [Platos de cultivo Manitol Salado (_S.aureus_)],
-)<figura_2>
+// #figure(
+//   grid(
+//     columns: 2,
+//     gutter: 1em,
+//     image("docs/imagenes/mermelada_guayaba_manitol_1.jpg", width: 100%),
+//     image("docs/imagenes/mermelada_guayaba_manitol_2.jpg", width: 100%),
+//   ),
+//   caption: [Platos de cultivo Manitol Salado (_S.aureus_)],
+// )<figura_2>
 
 
-#figure(
-  grid(
-    columns: 2,
-    gutter: 1em,
-    image("docs/imagenes/mermelada_guayaba_salmonella_1.jpg"),
-    image("docs/imagenes/mermelada_guayaba_salmonella_2.jpg"),
-  ),
-  caption: [Platos de cultivo _Salmonella spp_ (_Salmonella spp_)]
-)<figura_3>
+// #figure(
+//   grid(
+//     columns: 2,
+//     gutter: 1em,
+//     image("docs/imagenes/mermelada_guayaba_salmonella_1.jpg"),
+//     image("docs/imagenes/mermelada_guayaba_salmonella_2.jpg"),
+//   ),
+//   caption: [Platos de cultivo _Salmonella spp_ (_Salmonella spp_)]
+// )<figura_3>
 
-#figure(
-  grid(
-    columns: 2,
-    gutter: 1em,
-    image("docs/imagenes/mermelada_guayaba_sabouraud_1.jpg"),
-    image("docs/imagenes/mermelada_guayaba_sabouraud_2.jpg")
-  ),
-  caption: [Plato de cultivo Sabouraud Destroxa (Hongos y Levaduras)]
-)<figura_4>
+// #figure(
+//   grid(
+//     columns: 2,
+//     gutter: 1em,
+//     image("docs/imagenes/mermelada_guayaba_sabouraud_1.jpg"),
+//     image("docs/imagenes/mermelada_guayaba_sabouraud_2.jpg")
+//   ),
+//   caption: [Plato de cultivo Sabouraud Destroxa (Hongos y Levaduras)]
+// )<figura_4>
 
-#figure(
-  grid(
-    columns: 1,
-    gutter: 1em,
-    image("docs/imagenes/mermelada_guayaba_mackonckey.jpg")
-  ), caption: [Plato de cultivo McConkey (Enteropatógenos)]
-)<figura_5>
+// #figure(
+//   grid(
+//     columns: 1,
+//     gutter: 1em,
+//     image("docs/imagenes/mermelada_guayaba_mackonckey.jpg")
+//   ), caption: [Plato de cultivo McConkey (Enteropatógenos)]
+// )<figura_5>
+
+
 = Análisis de resultados
 
-Los valores obtenidos en la tabla de resultados se encuentran dentro de los parámetros de aceptación exigidos por la NTC 285 y la resolución 1407/2022. La ausencia de colonias en los agares selectivos para _Coliformes_, _Salmonella_ [@figura_1, @figura_2, @figura_3], enteropatógenos y _S. aureus_ evidencia la aplicación de buenas prácticas de manufactura y una correcta pasteurización o tratamiento térmico durante el proceso. 
+// Los valores obtenidos en la tabla de resultados se encuentran dentro de los parámetros de aceptación exigidos por la NTC 285 y la resolución 1407/2022. La ausencia de colonias en los agares selectivos para _Coliformes_, _Salmonella_ [@figura_1, @figura_2, @figura_3], enteropatógenos y _S. aureus_ evidencia la aplicación de buenas prácticas de manufactura y una correcta pasteurización o tratamiento térmico durante el proceso. 
 
-En cuanto a la prueba de Mohos y Levaduras presente en el producto [@figura_4], se observó el crecimiento restringido de una (1) única unidad formadora de colonias, lo cual indica un recuento inferior al límite de riesgo (_m_ = 30 UFC/ _M_ = 300). Descartando alteraciones activas graves, aunque se recomienda vigilar el sellado y el volumen de espacio de la cabeza de envase para evitar la proliferación de microorganismos aerobios.
+// En cuanto a la prueba de Mohos y Levaduras presente en el producto [@figura_4], se observó el crecimiento restringido de una (1) única unidad formadora de colonias, lo cual indica un recuento inferior al límite de riesgo (_m_ = 30 UFC/ _M_ = 300). Descartando alteraciones activas graves, aunque se recomienda vigilar el sellado y el volumen de espacio de la cabeza de envase para evitar la proliferación de microorganismos aerobios.
 
 Uno de los ensayos programados por la norma técnica es la cuantificación de _Clostridium_ en medio TSY-Dextrosa. Dicha prueba no se ha realizado en concordancia con los resultados obtenidos en los ensayos fisico-químicos que presentan un pH cercano al valor seguro (< 3.4), lo suficiente para inhibir la germinación de esporas. 
 
