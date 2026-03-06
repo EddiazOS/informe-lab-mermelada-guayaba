@@ -116,6 +116,7 @@ Cada dilución fue inoculada por duplicado.
   columns: (1.8fr, 2fr, 0.8fr, 0.8fr, 1.5fr),
   align: left,
   [*Determinación*], [*Medio de cultivo*], [*T (°C)*], [*Tiempo*], [*Método*],
+  [Aerobios Mesófilos], [TSA], [35 ± 1], [48 h], [NTC 4519 @ntc4519],
   [Mohos y levaduras], [Agar Sabouraud Dextrosa], [25 ± 1], [5–7 d], [NTC 4132 @ntc4132],
   [Coliformes / _E. coli_], [Agar EMB], [35 ± 1], [24–48 h], [NTC 4458 @ntc4458],
   [_Salmonella_ spp.], [Caldo Rappaport / Agar Salmonella], [37 ± 1], [24 h], [NTC 4574 @ntc4574],
@@ -130,75 +131,64 @@ A continuación se presentan los resultados de cada ensayo microbiológico.
   columns: (1.8fr, 1.5fr, 1fr, 1fr, 1.2fr),
   align: left,
   [*Determinación*], [*Resultado*], [*m (NTC 285)*], [*M (NTC 285)*], [*Concepto*],
-  [Aerobios mesófilos], [No realizado], [10], [100], [—],
-  [Mohos y levaduras], [10 UFC/g], [30], [300], [Aceptable],
+  [Aerobios mesófilos], [< 10 UFC/g], [10], [100], [Aceptable],
+  [Mohos y levaduras], [< 10 UFC/g], [30], [300], [Aceptable],
   [Coliformes totales], [< 10 UFC/g], [< 10], [—], [Aceptable],
   [_E. coli_], [Ausencia], [Ausencia], [—], [Aceptable],
-  [_Staphylococcus aureus_], [< 10 UFC/g], [—], [—], [Aceptable],
   [_Clostridium_ sulf. red.], [No realizado], [< 10], [10], [—],
   [_Salmonella_ spp. /25 g], [Ausencia], [Ausencia], [—], [Aceptable],
 ) 
 
 
 // Espacio para figuras de placas
-// #figure(
-//   grid(
-//     columns: 2,
-//     gutter: 1em,
-//     image("docs/imagenes/mermelada_guayaba_EMB_1.jpg", width: 100%),
-//     image("docs/imagenes/mermelada_guayaba_EMB_2.jpg", width: 100%),
-//   ),
-//   caption: [Platos de cultivo EMB (Coliformes/_E.coli_)],
-// )<figura_1>
+#figure(
+  grid(
+    columns: 2,
+    gutter: 1em,
+    image("docs/imagenes/mermelada_guayaba_EMB_1.jpg", width: 100%),
+    image("docs/imagenes/mermelada_guayaba_EMB_2.jpg", width: 100%),
+  ),
+  caption: [Platos de cultivo EMB (Coliformes/_E.coli_)],
+)<figura_1>
 
+#figure(
+  grid(
+    columns: 2,
+    gutter: 1em,
+    image("docs/imagenes/mermelada_guayaba_salmonella_1.jpg", width: 100%),
+    image("docs/imagenes/mermelada_guayaba_salmonella_2.jpg", width: 100%),
+  ),
+  caption: [Platos de cultivo _Salmonella spp._]
+)<figura_2>
 
-// #figure(
-//   grid(
-//     columns: 2,
-//     gutter: 1em,
-//     image("docs/imagenes/mermelada_guayaba_manitol_1.jpg", width: 100%),
-//     image("docs/imagenes/mermelada_guayaba_manitol_2.jpg", width: 100%),
-//   ),
-//   caption: [Platos de cultivo Manitol Salado (_S.aureus_)],
-// )<figura_2>
+#figure(
+  grid(
+    columns: 2,
+    gutter: 1em,
+    image("docs/imagenes/mermelada_guayaba_TSA_1.jpg", width: 100%),
+    image("docs/imagenes/mermelada_guayaba_TSA_2.jpg", width: 100%),
+  ),
+  caption: [Platos de cultivo TSA (Aerobios Mesófilos)]
+)<figura_3>
 
-
-// #figure(
-//   grid(
-//     columns: 2,
-//     gutter: 1em,
-//     image("docs/imagenes/mermelada_guayaba_salmonella_1.jpg"),
-//     image("docs/imagenes/mermelada_guayaba_salmonella_2.jpg"),
-//   ),
-//   caption: [Platos de cultivo _Salmonella spp_ (_Salmonella spp_)]
-// )<figura_3>
-
-// #figure(
-//   grid(
-//     columns: 2,
-//     gutter: 1em,
-//     image("docs/imagenes/mermelada_guayaba_sabouraud_1.jpg"),
-//     image("docs/imagenes/mermelada_guayaba_sabouraud_2.jpg")
-//   ),
-//   caption: [Plato de cultivo Sabouraud Destroxa (Hongos y Levaduras)]
-// )<figura_4>
-
-// #figure(
-//   grid(
-//     columns: 1,
-//     gutter: 1em,
-//     image("docs/imagenes/mermelada_guayaba_mackonckey.jpg")
-//   ), caption: [Plato de cultivo McConkey (Enteropatógenos)]
-// )<figura_5>
+#figure(
+  grid(
+    columns: 2,
+    gutter: 1em,
+    image("docs/imagenes/mermelada_guayaba_sabouraud_1.jpg", width: 100%),
+    image("docs/imagenes/mermelada_guayaba_sabouraud_2.jpg", width: 100%)
+  ),
+  caption: [Plato de cultivo Sabouraud Dextrosa (Hongos y Levaduras)]
+)<figura_4>
 
 
 = Análisis de resultados
 
-// Los valores obtenidos en la tabla de resultados se encuentran dentro de los parámetros de aceptación exigidos por la NTC 285 y la resolución 1407/2022. La ausencia de colonias en los agares selectivos para _Coliformes_, _Salmonella_ [@figura_1, @figura_2, @figura_3], enteropatógenos y _S. aureus_ evidencia la aplicación de buenas prácticas de manufactura y una correcta pasteurización o tratamiento térmico durante el proceso. 
+Los valores obtenidos en la tabla de resultados se encuentran dentro de los parámetros de aceptación exigidos por la NTC 285 y la Resolución 1407/2022. La ausencia de colonias en los agares selectivos para _Coliformes_, _Salmonella_ y en el recuento en TSA [@figura_1, @figura_2, @figura_3] evidencia la aplicación de buenas prácticas de manufactura y una correcta pasteurización o tratamiento térmico durante el proceso. 
 
-// En cuanto a la prueba de Mohos y Levaduras presente en el producto [@figura_4], se observó el crecimiento restringido de una (1) única unidad formadora de colonias, lo cual indica un recuento inferior al límite de riesgo (_m_ = 30 UFC/ _M_ = 300). Descartando alteraciones activas graves, aunque se recomienda vigilar el sellado y el volumen de espacio de la cabeza de envase para evitar la proliferación de microorganismos aerobios.
+En cuanto a la prueba de Mohos y Levaduras presente en el producto [@figura_4], se observó un crecimiento restringido inferior al límite de riesgo (_m_ = 30 UFC/g; _M_ = 300 UFC/g). Esto descarta alteraciones activas graves, aunque se recomienda vigilar el sellado y el volumen de espacio de cabeza del envase para evitar la proliferación de microorganismos aerobios.
 
-Uno de los ensayos programados por la norma técnica es la cuantificación de _Clostridium_ en medio TSY-Dextrosa. Dicha prueba no se ha realizado en concordancia con los resultados obtenidos en los ensayos fisico-químicos que presentan un pH cercano al valor seguro (< 3.4), lo suficiente para inhibir la germinación de esporas. 
+Uno de los ensayos programados por la norma técnica es la cuantificación de _Clostridium_ en medio TSY-Dextrosa. Dicha prueba no se ha realizado en concordancia con los resultados obtenidos en los ensayos fisicoquímicos que presentan un pH cercano al valor seguro (< 3.4), lo suficiente para inhibir la germinación de esporas. 
 
 
 
