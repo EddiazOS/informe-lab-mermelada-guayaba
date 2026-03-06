@@ -35,10 +35,7 @@
 
 La *NTC 285* (_Frutas procesadas. Mermeladas y jaleas de frutas_, 5.#super[a]
 actualización, 2007-12-12) @ntc285 constituye la norma técnica colombiana de
-referencia para este tipo de producto. A diferencia de normas como la NTC 252
-(aceite de coco), que solo contemplan parámetros fisicoquímicos, la NTC 285
-*sí establece criterios microbiológicos obligatorios* con plan de muestreo tipo
-ICMSF (tres clases: _n_, _c_, _m_, _M_).
+referencia para este tipo de producto.
 
 La justificación técnica radica en la naturaleza del producto: la mermelada
 presenta una actividad acuosa (a#sub[w]) de aproximadamente 0,75 a 0,85, que
@@ -116,11 +113,10 @@ Cada dilución fue inoculada por duplicado.
   columns: (1.8fr, 2fr, 0.8fr, 0.8fr, 1.5fr),
   align: left,
   [*Determinación*], [*Medio de cultivo*], [*T (°C)*], [*Tiempo*], [*Método*],
-  [Aerobios Mesófilos], [TSA], [35 ± 1], [48 h], [NTC 4519 @ntc4519],
   [Mohos y levaduras], [Agar Sabouraud Dextrosa], [25 ± 1], [5–7 d], [NTC 4132 @ntc4132],
   [Coliformes / _E. coli_], [Agar EMB], [35 ± 1], [24–48 h], [NTC 4458 @ntc4458],
   [_Salmonella_ spp.], [Caldo Rappaport / Agar Salmonella], [37 ± 1], [24 h], [NTC 4574 @ntc4574],
-  [_Clostridium_ sulf. red.], [TSN], [37 ± 1], [48 h], [NTC 4834 @ntc4834],
+  [_Clostridium_ sulf. red.], [TSY-Dextrosa], [37 ± 1], [48 h], [NTC 4834 @ntc4834],
 )
 
 = Resultados
@@ -131,22 +127,20 @@ A continuación se presentan los resultados de cada ensayo microbiológico.
   columns: (1.8fr, 1.5fr, 1fr, 1fr, 1.2fr),
   align: left,
   [*Determinación*], [*Resultado*], [*m (NTC 285)*], [*M (NTC 285)*], [*Concepto*],
-  [Aerobios mesófilos], [< 10 UFC/g], [10], [100], [Aceptable],
-  [Mohos y levaduras], [< 10 UFC/g], [30], [300], [Aceptable],
-  [Coliformes totales], [< 10 UFC/g], [< 10], [—], [Aceptable],
-  [_E. coli_], [Ausencia], [Ausencia], [—], [Aceptable],
-  [_Clostridium_ sulf. red.], [No realizado], [< 10], [10], [—],
+  [Mohos y levaduras], [> 30 UFC/g], [30], [300], [Rechazo (c>1)],
+  [_E. coli_], [< 10], [< 10], [—], [Rechazo],
+  [_Clostridium_ sulf. red.], [> 10], [< 10], [10], [Rechazo],
   [_Salmonella_ spp. /25 g], [Ausencia], [Ausencia], [—], [Aceptable],
 ) 
 
 
-// Espacio para figuras de placas
+Espacio para figuras de placas
 #figure(
   grid(
     columns: 2,
     gutter: 1em,
-    image("docs/imagenes/mermelada_guayaba_EMB_1.jpg", width: 100%),
-    image("docs/imagenes/mermelada_guayaba_EMB_2.jpg", width: 100%),
+    image("docs/imagenes/mermelada_guayaba_EMB_1.jfif", width: 100%),
+    image("docs/imagenes/mermelada_guayaba_EMB_2.jfif", width: 100%),
   ),
   caption: [Platos de cultivo EMB (Coliformes/_E.coli_)],
 )<figura_1>
@@ -155,46 +149,47 @@ A continuación se presentan los resultados de cada ensayo microbiológico.
   grid(
     columns: 2,
     gutter: 1em,
-    image("docs/imagenes/mermelada_guayaba_salmonella_1.jpg", width: 100%),
-    image("docs/imagenes/mermelada_guayaba_salmonella_2.jpg", width: 100%),
+    image("docs/imagenes/mermelada_guayaba_Sabouraud_1.jfif", width: 100%),
+    image("docs/imagenes/mermelada_guayaba_Sabouraud_2.jfif", width: 100%),
   ),
-  caption: [Platos de cultivo _Salmonella spp._]
+  caption: [Platos de cultivo Sabouraud (Hongos y Levaduras)],
 )<figura_2>
 
 #figure(
   grid(
     columns: 2,
     gutter: 1em,
-    image("docs/imagenes/mermelada_guayaba_TSA_1.jpg", width: 100%),
-    image("docs/imagenes/mermelada_guayaba_TSA_2.jpg", width: 100%),
+    image("docs/imagenes/mermelada_guayaba_Salmonella_1.jfif", width: 100%),
+    image("docs/imagenes/mermelada_guayaba_Salomenlla_2.jfif", width: 100%),
   ),
-  caption: [Platos de cultivo TSA (Aerobios Mesófilos)]
+  caption: [Platos de cultivo Salmonella Siguella (_Salomenlla spp._)],
 )<figura_3>
 
 #figure(
   grid(
     columns: 2,
     gutter: 1em,
-    image("docs/imagenes/mermelada_guayaba_sabouraud_1.jpg", width: 100%),
-    image("docs/imagenes/mermelada_guayaba_sabouraud_2.jpg", width: 100%)
+    image("docs/imagenes/mermelada_guayaba_TSA_1.jfif", width: 100%),
+    image("docs/imagenes/mermelada_guayaba_TSA_2.jfif", width: 100%),
   ),
-  caption: [Plato de cultivo Sabouraud Dextrosa (Hongos y Levaduras)]
+  caption: [Platos de cultivo Triptona-Soya (_Clostidium_ sulf red)],
 )<figura_4>
+
 
 
 = Análisis de resultados
 
-Los valores obtenidos en la tabla de resultados se encuentran dentro de los parámetros de aceptación exigidos por la NTC 285 y la Resolución 1407/2022. La ausencia de colonias en los agares selectivos para _Coliformes_, _Salmonella_ y en el recuento en TSA [@figura_1, @figura_2, @figura_3] evidencia la aplicación de buenas prácticas de manufactura y una correcta pasteurización o tratamiento térmico durante el proceso. 
+El análisis microbiológico arroja resultados no conformes con los parámetros de la NTC 285. Se evidencia un recuento de Mohos y Levaduras @figura_2 dos de las unidades analizadas superan el límite inferior ($m = 30$ UFC/g), excediendo el criterio de aceptación máximo permitido ($c = 1$), lo que dictamina el rechazo del lote. 
 
-En cuanto a la prueba de Mohos y Levaduras presente en el producto [@figura_4], se observó un crecimiento restringido inferior al límite de riesgo (_m_ = 30 UFC/g; _M_ = 300 UFC/g). Esto descarta alteraciones activas graves, aunque se recomienda vigilar el sellado y el volumen de espacio de cabeza del envase para evitar la proliferación de microorganismos aerobios.
+Asimismo, el crecimiento de colonias en Agar EMB superior a 10 UFC/g y el recuento elevado de _Clostidium_ en el agar TSY-Dextrosa ( @figura_1, @figura_4)indican fallas significativas en las Buenas Prácticas de Manufactura (BPM). Esta carga microbiana sugiere que la mermelada de guayaba sufrió una deficiente pasteurización térmica, contaminación cruzada durante el envasado o un fallo hermético que permitió la proliferación aerobia y fúngica en el producto terminado.
 
-Uno de los ensayos programados por la norma técnica es la cuantificación de _Clostridium_ en medio TSY-Dextrosa. Dicha prueba no se ha realizado en concordancia con los resultados obtenidos en los ensayos fisicoquímicos que presentan un pH cercano al valor seguro (< 3.4), lo suficiente para inhibir la germinación de esporas. 
+Al hacer la confirmación del crecimiento de _Salmonella_ en medios selectivo no se ha evidenciado crecimiento alguno, lo cual indica la ausencia de dicho agente patogénico @figura_3
 
 
 
 = Conclusiones y recomendaciones
 
-De acuerdo con los resultados obtenidos, el producto cumple con todos los parámetros de calidad evaluados. En conformidad con la norma técnica @ntc285, se concluye que el producto es aprobado en términos de seguridad microbiológica.
+De acuerdo con los resultados obtenidos, el producto no cumple con todos los parámetros de calidad evaluados. En conformidad con la norma técnica @ntc285, se concluye que el producto es apto para su comercialización en términos de seguridad microbiológica.
 
 
 
