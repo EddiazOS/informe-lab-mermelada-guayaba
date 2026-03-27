@@ -2,7 +2,7 @@
 
 #show: bubble.with(
   title: "Informe de Análisis Microbiológico",
-  subtitle: "Mermelada de guayaba — Profuhor",
+  subtitle: "Mermelada de guayaba — Comaeb",
   author: "Edgardo Luis Díaz Osorio",
   affiliation: "Proyecto Caribbean — Universidad de Cartagena",
   date: datetime.today().display(),
@@ -160,7 +160,7 @@ Espacio para figuras de placas
     columns: 2,
     gutter: 1em,
     image("docs/imagenes/mermelada_guayaba_Salmonella_1.jfif", width: 100%),
-    image("docs/imagenes/mermelada_guayaba_Salomenlla_2.jfif", width: 100%),
+    image("docs/imagenes/mermelada_guayaba_Salmonella_2.jfif", width: 100%),
   ),
   caption: [Platos de cultivo Salmonella Siguella (_Salomenlla spp._)],
 )<figura_3>
